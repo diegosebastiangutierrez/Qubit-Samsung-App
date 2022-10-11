@@ -5,7 +5,5 @@ This app also is a white label for the Personal Video Samsung Smart TV App.
 
 They both work on Smart tv's, Blue Ray devices.
 
-Author: *Diego Gutierrez*
-Company: *Qubit.tv*
-
-
+Author: **Diego Gutierrez**
+Company: **Qubit.tv**
