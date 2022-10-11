@@ -1,0 +1,327 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+	{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-weight: normal;
+	color: #fff;
+	list-style-type: none;
+}
+
+b {
+	font-weight: bold
+}
+
+body {
+	color: #fff;
+	width: 1280px;
+	height: 720px;
+	padding: 0px;
+}
+
+.tv {
+	background: url(../images/wall4.jpg);
+	background-size:cover;
+	padding: 32px 32px 22px;
+	position: fixed; 
+	width: 1280px;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	z-index: -5;
+}
+
+.unselectable {
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 90px;
+	border-bottom: 1px solid #23262c;
+	background: url(../images/transbg.png);
+}
+
+.logo {
+	position: absolute;
+	background: url("../images/logo1.png") no-repeat;
+	width: 134px;
+	height: 66px;
+	z-index: 90;
+	top: 20px;
+	left: 33px;
+}
+
+.registrate {
+	background: url("../images/registrate.png") no-repeat;
+	height: 50px;
+	position: absolute;
+	width: 50px;
+}
+
+.alquilar {
+	background: url("../images/alquilar.png") no-repeat;
+	height: 50px;
+	position: absolute;
+	width: 50px;
+}
+
+.favorita {
+	background: url("../images/favorita.png") no-repeat;
+	height: 50px;
+	position: absolute;
+	width: 50px;
+}
+
+.visto {
+	background: url("../images/vista.png") no-repeat;
+	height: 50px;
+	position: absolute;
+	width: 50px;
+}
+
+.gratis {
+	background: url("../images/gratis.png") no-repeat;
+	height: 50px;
+	position: absolute;
+	width: 50px;
+}
+
+.premium {
+	background: url("../images/premium.png") no-repeat;
+	height: 50px;
+	position: absolute;
+	width: 50px;
+}
+
+.libre {
+	background: url("../images/gratis.png") no-repeat;
+	height: 50px;
+	position: absolute;
+	width: 50px;
+}
+
+.abono {
+	background: url("../images/abono.png") no-repeat;
+	height: 50px;
+	position: absolute;
+	width: 50px;
+}
+
+.menu {
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	width: 190px;
+	bottom: 60px;
+	overflow: hidden;
+	margin-left: 0px;
+	padding-top: 100px;
+	background: url(../images/transbg.png);
+}
+
+.menu .botones {
+	margin: 0px 5px 0px 5px;
+	padding: 16px 0px 8px 0px;
+	font-size: 16px;
+	text-transform: uppercase;
+	height: 25px;
+	z-index: 80;
+	position: relative;
+	text-align: center;
+	border-top: 1px solid #263c59;
+	border-bottom: 1px solid transparent;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	color:rgba(255,255,255,0.5);
+}
+
+.menu .botones-selected {
+	color: yellow;
+	background: none;
+}
+
+.menu .espacio {
+	padding: 25px 0px 8px 10px;
+	font-size: 21px;
+	font-weight: normal;
+	background-repeat: repeat-x;
+	text-transform: uppercase;
+	height: 10px;
+}
+
+.menu-focus .botones-selected {
+	padding: 16px 0px 8px 0px;
+	color: yellow;
+	border-bottom: 1px solid #263c59;
+	border-left: 5px solid #0066CC;
+	border-right: 5px solid #0066CC;
+	background:black;
+}
+
+.gradient {
+	background: url("../images/gradient_01.png") center bottom repeat-x;
+	height: 180px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	z-index: 99;
+}
+
+.clasif {
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+	float: left;
+	vertical-align: center;
+}
+
+.clasificacion .calidad {
+	background: url(../images/hd.png) 0px 6px no-repeat;
+}
+
+.clasificacion .control {
+	background: url(../images/control.png) 0px 0px no-repeat;
+}
+
+.clasificacion .atp {
+	background: url(../images/gatp.png) 0px 0px no-repeat;
+}
+
+.clasificacion .plus13 {
+	background: url(../images/g+13.png) 0px 0px no-repeat;
+}
+
+.clasificacion .plus16 {
+	background: url(../images/g+16.png) 0px 0px no-repeat;
+}
+
+.clasificacion .plus18 {
+	background: url(../images/g+18.png) 0px 0px no-repeat;
+}
+
+.clasificacion .xxx {
+	background: url(../images/gxxx.png) 0px 0px no-repeat;
+}
+
+.duracion {
+	width: 80px;
+	height: 50px;
+	background: url(../images/time.png) 0px 0px no-repeat;
+	padding-top: 15px;
+	font-weight: bold;
+	color: #999;
+}
+
+.fila {
+	height: 229px;
+}
+
+.titulomovie h4 {
+	max-height: 59px;
+	overflow: hidden;
+}
+
+.keyhelp {
+	display: inherit !important;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 90;
+	background: url(../images/leather1.png) top center !important;
+	font-size: 18px !important;
+	padding: 7px 0px 0px !important;
+	height: 35px !important;
+	overflow: hidden !important;
+}
+
+.keyhelp table {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.keyhelp table tr {
+	padding: 0px !important;
+}
+
+.keyhelp table tr td table td {
+	vertical-align: middle;
+	height: 30px;
+}
+
+.keyhelp table tr td-sf-ui-keyhelp-icon {
+	vertical-align: top;
+}
+
+#preloader {
+	position: fixed;
+	top: 80px;
+	left: 0px;
+	height: 2px;
+	width: 0px;
+	background: #2187E7;
+	border: 1px solid rgba(0, 198, 255, 0.25);
+}
+
+#loading {
+	z-index: 2000;
+	position: fixed;
+	top: 300px;
+	left: 600px;
+	right: 600px;
+}
+
+#AnalyticsPic {
+	display: none !important;
+	width: 0px;
+	height: 0px;
+	position: fixed;
+	top: -200px;
+	left: -200px;
+}
+
+#ErrorBody {
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	text-align: left;
+	font-size: 21px;
+	padding: 10px 15px 10px 45px;
+	text-shadow: 1px 1px black, -1px -1px black;
+	background: black url(../images/error.png) 10px 10px no-repeat;
+	display: none;
+	z-index: 89;
+}
+
+#ErrorBody h1 {
+	color: red;
+	padding: 0px 0px 5px;
+	text-transform: uppercase;
+}
+
+#ErrorBody p {
+	margin: 0px;
+	display: block;
+}
+
+#AnalyticsPic{
+display:none;
+height:0;
+width:0;
+boder:0;
+padding:0;
+z-index:-1000;
+}

@@ -1,0 +1,111 @@
+#SceneCatalog {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 1280px;
+	height: 720px;
+}
+
+#CatalogPager{
+	display:block;
+	position:absolute;
+	bottom:60px;
+	left:230px;
+	width:1020px;
+	text-align:left;
+	font-size:22px;
+}
+
+#CatalogPager #Category{
+	float:left;
+	color:#aaa;
+}
+
+#CatalogPager #Page{
+	float:right;
+	text-align:right;
+	color:#aaa;
+}
+
+#thumbs {
+	position: absolute;
+	top: 0px;
+	left: 210px;
+	bottom: 0px;
+	overflow: hidden;
+	padding-left: 20px;
+	padding-top: 30px;
+	z-index: auto;
+}
+
+.thumbs li {
+	width: 170px;
+	display: inline-block;
+	padding: 0px;
+	margin: 0px 5px 15px 0px;
+	height: 290px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.thumbs li img {
+	z-index: 50;
+	width: 170x;
+	height: 212px;
+	border-top: solid 7px transparent;
+	border-bottom: solid 7px transparent;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.thumbs li .estado {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	top: 155px;
+	left: 10px;
+	z-index: 98;
+}
+
+.thumbs.img_selected {
+	border-top-color: #0066CC;
+	cursor: pointer;
+}
+
+.thumbs li .titulomovie {
+	text-align: left;
+	padding: 6px 0px;
+	font-size: 18px !important;
+	font-weight: normal;
+	position: absolute;
+	top: 223px;
+	left: 0px;
+	right: 0px;
+	width: 160px !important;
+	display: inline-block;
+	z-index: 100;
+}
+
+.thumbs .thumb-focus .image {
+	border-top-color: #0066CC;
+	border-bottom-color: #0066CC;
+}
+
+#VerticalMenu {
+	margin-top: 0px;
+}
+
+#VerticalMenu div.panel:last-child {
+	border-top: 1px solid #2289B5;
+	border-bottom: 1px solid #2289B5;
+}
+
+.arrows {
+	background: url(../../images/dots.png) center no-repeat;
+	width: 100%;
+	height: 3px;
+	padding: 4px 0px;
+	display: block;
+}

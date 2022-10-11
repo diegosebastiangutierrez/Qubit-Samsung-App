@@ -1,0 +1,121 @@
+#SceneDetail {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 1280px;
+	height: 720px;
+}
+
+.reprod {
+	margin: 0px auto;
+	width: 175px;
+	height: 175px;
+	display: none;
+	background: url(../../images/reprod.png) center no-repeat;
+}
+
+.CannotBuy{
+	position:absolute;
+	z-index:300;
+	top:10px;
+	left:240px;
+	right:40px;
+	padding:10px 0px 0px;
+	display:none;
+}
+
+.CannotBuy p{
+	font-size:20px;
+	padding:10px 0px;
+}
+
+.CannotBuy p span.url{
+	color:#0066CC;
+}
+
+.fichamovie {
+	position: absolute;
+	top: 90px;
+	left: 210px;
+	padding: 10px 10px 15px;
+	width: 1010px;
+	bottom: 60px;
+}
+
+.movie {
+	width: 320px;
+	padding: 0px;
+}
+
+.movie img {
+	height: 420px;
+	margin: 5px 0px 0px 20px;
+	box-shadow: 0px 0px 15px #999;
+	-webkit-box-shadow: 0px 0px 15px #999;
+	-moz-box-shadow: 0px 0px 15px #999;
+	border-top: 7px solid #0066CC;
+}
+
+.info {
+	position: absolute;
+	left: 340px;
+	top: 0px;
+	right: 0px;
+	width: 650px;
+	padding: 15px 10px 10px;
+	display: block;
+}
+
+.info .titulos {
+	height: 120px;
+}
+
+.info .sinopsis {
+	font-size: 18px;
+	padding: 10px 5px 0px 5px;
+	line-height: 23px;
+	color: #CCC;
+}
+
+.info #Element_description {
+	font-size: 20px;
+	line-height: 1.5em;
+	margin: 12px 0px;
+}
+
+.info .infomovie {
+	padding: 25px 10px 0px 0px;
+	line-height: 1.5em;
+	font-size: 17px;
+	z-index: 97;
+	position: relative;
+}
+
+.info .infomovie .texto1 {
+	color: #ccc;
+	padding-top: 10px;
+}
+
+.info  .infomovie .titulo5 {
+	font-weight: bold;
+	color: #ccc;
+	float: left;
+}
+
+.info .titulos .titulo3 {
+	font-size: 28px;
+	font-weight: bold;
+	padding-left: 9px
+}
+
+.info .titulos .titulo4 {
+	font-size: 18px;
+	font-style: italic;
+	padding: 5px 0px 0px 9px;
+}
+
+.info .titulos .clasificacion {
+	height: 40px;
+	text-align: right;
+	padding: 10px 0px;
+}

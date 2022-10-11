@@ -1,0 +1,177 @@
+#SceneLogin {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 1280px;
+	height: 720px;
+}
+
+div#loginForm {
+	position: absolute;
+	top: 120px;
+	left: 240px;
+	padding: 0px;
+	color: white;
+	width: 320px;
+	display: block;
+}
+
+div#loginForm .ipg {
+	display: block;
+	clear: both;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
+div#loginForm .ipg.right {
+	text-align: right;
+}
+
+div#loginForm label {
+	font-size: 22px !important;
+	color: white;
+	font-weight: bold;
+	display: block;
+	padding: 5px 0px 5px 0px;
+	text-align: left;
+	margin: 0px;
+	text-shadow: black 1px 1px 1px;
+}
+
+div#loginForm input[type="text"],div#loginForm input[type="password"] {
+	font-size: 20px;
+	height: 35px;
+	width: 288px;
+	padding: 10px;
+	text-align: left;
+	background: black;
+	color: white;
+	border: 5px solid transparent;
+	display: block;
+}
+
+div#loginForm input[type="text"]:focus,div#loginForm input[type="password"]:focus
+	{
+	background: #ddd !important;
+	border: 5px solid #2289B5 !important;
+	color: black !important;
+}
+
+div#loginForm input[type="text"][disabled] {
+	color: black;
+}
+
+div#loginForm input[type="button"] {
+	padding: 14px 0px;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	background: #003399;
+	clear: both;
+	margin: 10px 0px 0px 0px;
+	border: 5px solid transparent;
+	width: 155px;
+	display: inline-block;
+}
+
+div#loginForm input#cancelForm {
+	background-color: #EB2F2F !important;
+	margin-left: 5px;
+}
+
+div#loginForm input[type="button"]:focus {
+	border: 5px solid #2289b5;
+}
+
+div#loginForm .LoginMessage {
+	font-size: 35px;
+	padding: 10px 0px 0px 0px;
+	margin-bottom: 20px;
+	width: 455px;
+	text-align: left;
+	display: block;
+	text-shadow: black 1px 1px 1px;
+}
+
+div#loginForm p#Error {
+	color: #CC0000;
+	font-size: 28px;
+	font-weight: bold;
+	text-shadow: black 1px 1px 1px;
+	text-align: left;
+	display: block;
+	margin-top: 60px;
+	width: 550px;
+}
+
+#SceneLogin p#legend {
+	position: absolute;
+	left: 240px;
+	bottom: 60px;
+	padding: 0;
+	color: white;
+	font-size: 22px;
+	text-shadow: #6374AB 1px 1px 1px;
+	text-align: left;
+	padding: 20px 0px 0px;
+	display: block;
+}
+
+#virtualKeyboard {
+	width: 690px;
+	position: absolute;
+	top: 150px;
+	left: 580px;
+	z-index: 90;
+	display: none;
+}
+
+#virtualKeyboard li {
+	width: 45px;
+	text-align: center;
+	padding: 10px 8px;
+	display: inline-block;
+	background: url(../../images/transbg.png);
+	color: white;
+	font-size: 16px;
+	margin-top: 3px !important;
+	margin-right: 3px !important;
+	margin-bottom: 0px !important;
+	margin-left: 0px !important;
+}
+
+#virtualKeyboard li#virtualKeyboardInput {
+	font-size: 26px;
+	font-weight: bold;
+	width: 622px !important;
+	padding: 3px 8px;
+	height: 30px !important;
+	display: block;
+	background: transparent;
+	color: white;
+	border: none;
+	text-align: left;
+	text-shadow: black 1px 1px 1px;
+	margin-bottom: 10px !important;
+	overflow: hidden;
+}
+
+#virtualKeyboard li.half{
+	width:25px;
+}
+
+#virtualKeyboard li.double{
+	width:90px;
+}
+
+#virtualKeyboard li.quarter{
+	width:68px;
+}
+
+#virtualKeyboard li.activo {
+	background: url(../../images/transbg_over.png);
+}
+
+#virtualKeyboard li.uCase {
+	font-weight: bold;
+}

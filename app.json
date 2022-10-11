@@ -1,0 +1,6 @@
+{
+    "scenes" : [ "Loader", "Catalog", "Detail", "Login", "Confirm", "ConfirmBuy", "Player" ],
+    "files" : [],
+    "changeSource" : true, 
+    "theme" : "base"
+}

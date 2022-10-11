@@ -1,0 +1,46 @@
+#SceneLoader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 1280px;
+	height: 720px;
+}
+
+#LogoBig {
+	position: absolute;
+	top: 255px;
+	left: 290px;
+	right: 290px;
+	height: 169px;
+	background: url(../../images/bglogo.png) center no-repeat;
+	z-index: 65;
+}
+
+#roundLoader {
+	position: absolute;
+	top: 680px;
+	left: 0px;
+	right: 0px;
+	background: rgba(0, 0, 0, .4);
+	height: 5px;
+	display: block;
+}
+
+#LoaderBar {
+	background: #0066CC;
+	padding: 0px;
+	height: 4px;
+	border-top: 1px solid #003399;
+}
+
+#LoaderLog {
+	text-align: center;
+	display: block;
+	font-size: 1.5em;
+	color: white;
+	position: absolute;
+	text-shadow: 1px 1px black, -1px -1px black;;
+	left: 100px;
+	right: 100px;
+	top: 490px;
+}

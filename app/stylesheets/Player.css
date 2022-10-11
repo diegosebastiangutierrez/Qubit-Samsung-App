@@ -1,0 +1,202 @@
+#ScenePlayer {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 1280px;
+	height: 720px;
+}
+
+#Controls {
+	z-index: 70;
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	padding: 10px;
+}
+
+#Progress {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 0px;
+	display: block;
+	height: 5px;
+	position: relative;
+	width: 100%;
+	background-color: rgba(204, 204, 204, 0.8);
+}
+
+#Progress #Bar {
+	background-color: rgba(255, 31, 97, 0.8);
+	border-top: 1px solid rgba(255, 36, 0, 1.0);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	height: 4px;
+	width: 0px;
+}
+
+#PlayerControls {
+	position: relative;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+}
+
+#PlayerControls li {
+	width: 40px;
+	color: white;
+	text-align: center;
+	padding: 0 5px 0 0;
+	text-shadow: 1px 1px black, -1px -1px black;
+	display: inline-block;
+	margin: 0px 3px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-size: 15px !important;
+	vertical-align: middle;
+}
+
+#PlayerControls li.TituloMovie {
+	text-align: left;
+	display: block;
+	width: 100%;
+	font-size: 15px !important;
+	padding: 0px 0px 5px 0px;
+}
+
+#PlayerControls li.bt {
+	padding: 0px;
+	height: 40px;
+	width: 40px;
+	background-image: url(../../images/spriteplayer.png);
+	background-repeat: no-repeat;
+}
+
+#PlayerControls li.logo {
+	margin: 0px 5px 0px 0px;
+	width: 130px;
+}
+
+#PlayerControls li#volumen {
+	height: 25px;
+	width: 100px;
+	background-color: rgba(201, 201, 201, 0.7);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 0px;
+}
+
+#PlayerControls #volumen #indicator {
+	background: rgba(255, 0, 0, .75);
+	height: 25px;
+	width: 0px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-opacity: 0.8;
+	-webkit-opacity: 0.8;
+	opacity: 0.8;
+}
+
+#PlayerControls li#mute {
+	display: none;
+	background-position: -320px 0px;
+}
+
+#PlayerControls li#currentTime,#PlayerControls li#totalTime {
+	width: 55px;
+	text-align: right;
+	height: 25px;
+}
+
+#PlayerControls li#totalTime {
+	text-align: left;
+}
+
+#PlayerControls li#stopBt {
+	background-position: 0px 0px;
+}
+
+#PlayerControls li#playBt {
+	background-position: -40px 0px;
+}
+
+#PlayerControls li#pauseBt {
+	background-position: -80px 0px;
+}
+
+#PlayerControls li#rewBt {
+	background-position: -120px 0px;
+}
+
+#PlayerControls li#ffBt {
+	background-position: -160px 0px;
+}
+
+#PlayerControls li#captions {
+	background-position: -200px 0px;
+}
+
+#PlayerControls li#backBt {
+	background-position: -240px 0px;
+}
+
+#PlayerControls li#exitBt {
+	background-position: -280px 0px;
+}
+
+#PlayerControls li#WideVine {
+	width:47px;
+	height:41px;
+	background:url(../../images/widevine-logo.png) center no-repeat;
+	display:none;
+	float:right;
+	
+}
+
+#PlayerControls li.sepper {
+	width: 5px;
+	text-align: center;
+	padding: 0px;
+}
+
+#frTime {
+	position:absolute;
+	top:150px;
+	left:33%px;
+	width:33%;
+	right:33%;
+	color:yellow;
+	font-size:24px!important;
+	display:none;
+	text-align:center;
+	padding:5px 0;
+	border:3px solid yellow;
+}
+
+#errors {
+	text-align: center;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	color: red;
+	z-index: 78;
+	width: 750px;
+}
+
+#Subs {
+	text-align: center;
+	color: yellow;
+	padding: 1.8em 1em;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	font-size: 34px!important;
+	text-shadow: 1px 1px black, -1px -1px black;
+	z-index: 79;
+}
